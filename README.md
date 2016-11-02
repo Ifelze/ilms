@@ -16,7 +16,7 @@ https://git-scm.com/download/win
 
 https://help.github.com/articles/set-up-git/
 
-* Install Github Plugin for eclipse
+* Install Github Plugin for eclipse ( EGit)
 
 https://eclipse.github.io/
 
