@@ -10,6 +10,12 @@ https://spring.io/tools/sts
 
 http://www.sonarlint.org/eclipse/
 
+* Install and configure GIT
+
+https://git-scm.com/download/win
+
+https://help.github.com/articles/set-up-git/
+
 * Install Github Plugin for eclipse
 
 https://eclipse.github.io/
