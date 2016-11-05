@@ -19,4 +19,9 @@ public class HomeController {
             ServletException {
     	return "home";
     }
+    @RequestMapping("/login")
+    public String loginPage() throws
+            ServletException {
+    	return "login";
+    }
 }
