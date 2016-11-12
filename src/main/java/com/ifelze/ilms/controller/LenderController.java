@@ -48,8 +48,9 @@ public class LenderController {
             throw new ServletException("Invalid login. Please check your name and password");
         }
 
-        return Jwts.builder().setSubject(userName).claim("roles", "user").setIssuedAt(new Date())
+        Jwts.builder().setSubject(userName).claim("roles", "user").setIssuedAt(new Date())
                 .signWith(SignatureAlgorithm.HS256, "secretkey").compact();
+        return OpStatus.SUCCESS.toString();
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)

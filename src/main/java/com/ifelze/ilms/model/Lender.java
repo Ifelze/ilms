@@ -37,14 +37,6 @@ public class Lender {
 		this.lenderId = lenderId;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public String getPassword() {
 		return password;
 	}
@@ -59,5 +51,19 @@ public class Lender {
 
 	public void setRegisterDate(Date registerDate) {
 		this.registerDate = registerDate;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
 	}
 }
