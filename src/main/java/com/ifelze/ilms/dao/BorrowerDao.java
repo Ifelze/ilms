@@ -16,7 +16,8 @@ import com.ifelze.ilms.model.Borrower;
  */
 @Repository
 public interface BorrowerDao extends CrudRepository <Borrower, Long> {
-    List<Borrower> findAll();
+   
+	List<Borrower> findAll();
 
     Borrower findByBorrowerId(Long borrowerId);
 

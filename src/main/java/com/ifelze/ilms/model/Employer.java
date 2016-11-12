@@ -17,6 +17,7 @@ import com.ifelze.ilms.constants.PayFrequency;
  * @author nithya
  *
  */
+
 @Entity
 public class Employer {
 	@Id

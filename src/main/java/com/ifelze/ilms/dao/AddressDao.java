@@ -9,9 +9,10 @@ import com.ifelze.ilms.model.Address;
 
 @Repository
 public interface AddressDao extends CrudRepository <Address, Long> {
-    List<Address> findAll();
 
     Address findByAddressId(Long addressId);
+
+    List<Address> findAll();
 
     Address save(Address address);
 }
